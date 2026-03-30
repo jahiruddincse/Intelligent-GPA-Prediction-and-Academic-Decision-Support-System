@@ -1,51 +1,59 @@
-# 🎯 AI-Based GPA Prediction and Decision Support System
+# 🎯 Intelligent GPA Prediction and Academic Decision Support System
 
-> A simple AI-driven tool that helps students predict their GPA and make smarter academic decisions.
+> An AI-inspired system that predicts GPA based on expected grades and helps students make smarter academic decisions.
 
 ---
 
 ## 📌 Overview
 
-This project focuses on solving a common problem faced by students — deciding how to improve academic performance efficiently.
+This project is designed to help students plan their academic performance more effectively. It predicts GPA based on **user-provided expected grades** and suggests which subjects to focus on in order to achieve a target GPA.
 
-Instead of studying all subjects randomly, this system provides a structured approach to:
+Instead of studying all subjects equally, this system provides a structured approach to:
 - identify high-impact subjects  
 - estimate effort required  
-- plan strategies to reach a target GPA  
+- plan strategies for improvement  
 
 ---
 
 ## ❗ Problem Statement
 
-Students often face confusion during exams:
+Students often face uncertainty during exams:
+- What will my GPA be based on my preparation?
 - Which subject should I focus on?
-- How can I improve my GPA effectively?
-- Am I using my effort in the right way?
+- How can I reach my target GPA efficiently?
 
-This project provides a logical and data-driven way to approach these questions.
+This project provides a logical and data-driven way to answer these questions.
 
 ---
 
 ## 💡 Solution Approach
 
-The system works as a simple decision-making agent:
+The system works as a simple intelligent decision agent:
 
-1. Takes subject details as input  
-2. Calculates predicted GPA  
-3. Ranks subjects based on impact vs effort  
-4. Suggests which subjects to improve  
-5. Simulates GPA changes using what-if analysis  
+1. Takes inputs such as:
+   - expected/predicted grades  
+   - subject credits  
+   - difficulty level  
+   - preparation level  
+
+2. Predicts current GPA using a weighted average model  
+
+3. Evaluates each subject using an **impact vs effort scoring method**  
+
+4. Suggests subjects to improve for achieving a target GPA  
+
+5. Performs **what-if analysis** to predict GPA under different scenarios  
 
 ---
 
 ## ⚙️ Key Features
 
-- 📊 GPA prediction using weighted average  
+- 📊 GPA prediction based on expected grades  
 - 📈 Subject prioritization using scoring logic  
 - 🎯 Target GPA planning  
 - 🔍 What-if analysis (GPA simulation)  
 - 🧠 Decision support system  
-- 📘 Study suggestions based on input  
+- 📘 Study suggestions  
 
 ---
 
