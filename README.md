@@ -1,88 +1,65 @@
 # 🎯 Intelligent GPA Prediction and Academic Decision Support System
 
-> An AI-inspired system designed specifically for the VIT Bhopal grading system to predict GPA based on expected grades and guide students in making better academic decisions.
+> 🤖 A simple AI-inspired tool that predicts GPA based on expected grades and helps students make better academic decisions.
 
 ---
 
 ## 📌 Overview
 
-This project focuses on helping students at **VIT Bhopal** plan their academic performance more effectively. It predicts GPA based on **expected (user-input) grades** and suggests which subjects to prioritize in order to achieve a target GPA.
+This project helps students estimate their GPA using expected (predicted) grades and plan their study strategy more effectively.
 
-Instead of studying all subjects equally, this system provides a structured approach to:
-- identify high-impact subjects  
-- estimate effort required  
-- plan strategies for improvement  
+It considers:
+- 📚 Subject credits  
+- 📝 Expected grades  
+- ⚙️ Difficulty level  
+- 📊 Preparation level  
 
----
-
-## 🎓 VIT Bhopal GPA System
-
-The GPA is calculated using the standard weighted average method based on:
-
-- Grade Points (S=10, A=9, B=8, C=7, D=6, E=5, F=0)
-- Course Credits
-
-### 📷 GPA Formula (Add Screenshot Below)
-
-<!-- Add your formula image here -->
-![GPA Formula Screenshot](images/formula.png)
+Based on this, the system suggests which subjects to prioritize to improve GPA.
 
 ---
 
-## ❗ Problem Statement
+## 🎓 GPA System (VIT Bhopal)
 
-Students often face uncertainty during exams:
-- What will my GPA be based on my preparation?
-- Which subject should I focus on?
-- How can I reach my target GPA efficiently?
+The GPA is calculated using a weighted average method:
 
-This project provides a logical and structured solution to these problems.
+- S = 10  
+- A = 9  
+- B = 8  
+- C = 7  
+- D = 6  
+- E = 5  
+- F = 0  
 
----
-
-## 💡 Solution Approach
-
-The system works as a simple intelligent decision agent:
-
-1. Takes inputs:
-   - expected/predicted grades  
-   - subject credits  
-   - difficulty level  
-   - preparation level  
-
-2. Predicts GPA using weighted average  
-
-3. Applies **impact vs effort scoring** to rank subjects  
-
-4. Suggests optimal subjects to improve  
-
-5. Performs **what-if analysis** for GPA prediction  
+### 📷 Formula  
+*(Add your GPA formula screenshot here)*
 
 ---
 
-## ⚙️ Key Features
+## ⚙️ How It Works
+
+1. ✏️ User enters subject details  
+2. 📊 System calculates predicted GPA  
+3. 📈 Subjects are ranked using impact vs effort  
+4. 🎯 Best subject to improve is suggested  
+5. 🔍 GPA changes are shown using what-if analysis  
+
+---
+
+## ✨ Features
 
 - 📊 GPA prediction based on expected grades  
-- 📈 Subject prioritization using scoring logic  
+- 📈 Subject prioritization using scoring  
 - 🎯 Target GPA planning  
-- 🔍 What-if analysis (GPA simulation)  
-- 🧠 Decision support system  
-- 📘 Study suggestions  
-
----
-
-## 🛠️ Technologies Used
-
-- Python  
-- Lists, loops, and conditionals  
-- Functions  
-- Basic algorithm design  
+- 🔍 What-if GPA analysis  
+- 💡 Study suggestions  
 
 ---
 
 ## 🚀 How to Run
 
 1. Install Python  
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/ai-gpa-prediction-system
+2. Clone this repository  
+3. Run:
+
+```bash
+python main.py
