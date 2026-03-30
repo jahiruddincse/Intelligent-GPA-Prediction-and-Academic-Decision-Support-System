@@ -72,8 +72,14 @@ The system works in the following steps:
 5. Perform GPA prediction analysis  
 
 ---
+## 6. Subject Priority Score
 
-## 6. Algorithm
+Each subject is assigned a score based on its impact on GPA and the effort required to improve it.
+The score is calculated using credits, current grade, difficulty, and preparation level.
+A higher score means the subject can improve GPA more efficiently with less effort.
+Subjects are ranked based on this score to guide study decisions.
+
+## 7. Algorithm
 
 1. Input number of subjects  
 2. Store subject details (credits, grade, difficulty, preparation)  
@@ -93,7 +99,7 @@ The system works in the following steps:
 
 ---
 
-## 7. Features
+## 8. Features
 
 - GPA prediction based on expected grades  
 - Subject prioritization using scoring  
@@ -104,9 +110,9 @@ The system works in the following steps:
 
 ---
 
-## 8. Screenshot
+## 9. Screenshot
 
-## 9. How to Run
+## 10. How to Run
 
 1. Install Python  
 2. Clone the repository:
