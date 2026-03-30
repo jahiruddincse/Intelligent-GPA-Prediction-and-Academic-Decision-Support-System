@@ -118,3 +118,12 @@ Subjects are ranked based on this score to guide study decisions.
 2. Clone the repository:
    ```bash
    git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
+
+
+
+## Conclusion
+
+This project demonstrates how simple AI-inspired logic and structured decision-making can be applied to academic planning.  
+By predicting GPA based on expected grades and evaluating subject priority using a scoring method, it helps students focus on the most impactful subjects.  
+The system provides a practical approach to improving academic performance in a clear and efficient way.  
+Overall, it shows how basic programming and analytical thinking can solve real-world student problems.
