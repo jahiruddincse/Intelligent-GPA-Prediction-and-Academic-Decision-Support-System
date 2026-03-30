@@ -1,17 +1,31 @@
 # 🎯 Intelligent GPA Prediction and Academic Decision Support System
 
-> An AI-inspired system that predicts GPA based on expected grades and helps students make smarter academic decisions.
+> An AI-inspired system designed specifically for the VIT Bhopal grading system to predict GPA based on expected grades and guide students in making better academic decisions.
 
 ---
 
 ## 📌 Overview
 
-This project is designed to help students plan their academic performance more effectively. It predicts GPA based on **user-provided expected grades** and suggests which subjects to focus on in order to achieve a target GPA.
+This project focuses on helping students at **VIT Bhopal** plan their academic performance more effectively. It predicts GPA based on **expected (user-input) grades** and suggests which subjects to prioritize in order to achieve a target GPA.
 
 Instead of studying all subjects equally, this system provides a structured approach to:
 - identify high-impact subjects  
 - estimate effort required  
 - plan strategies for improvement  
+
+---
+
+## 🎓 VIT Bhopal GPA System
+
+The GPA is calculated using the standard weighted average method based on:
+
+- Grade Points (S=10, A=9, B=8, C=7, D=6, E=5, F=0)
+- Course Credits
+
+### 📷 GPA Formula (Add Screenshot Below)
+
+<!-- Add your formula image here -->
+![GPA Formula Screenshot](images/formula.png)
 
 ---
 
@@ -22,7 +36,7 @@ Students often face uncertainty during exams:
 - Which subject should I focus on?
 - How can I reach my target GPA efficiently?
 
-This project provides a logical and data-driven way to answer these questions.
+This project provides a logical and structured solution to these problems.
 
 ---
 
@@ -30,19 +44,19 @@ This project provides a logical and data-driven way to answer these questions.
 
 The system works as a simple intelligent decision agent:
 
-1. Takes inputs such as:
+1. Takes inputs:
    - expected/predicted grades  
    - subject credits  
    - difficulty level  
    - preparation level  
 
-2. Predicts current GPA using a weighted average model  
+2. Predicts GPA using weighted average  
 
-3. Evaluates each subject using an **impact vs effort scoring method**  
+3. Applies **impact vs effort scoring** to rank subjects  
 
-4. Suggests subjects to improve for achieving a target GPA  
+4. Suggests optimal subjects to improve  
 
-5. Performs **what-if analysis** to predict GPA under different scenarios  
+5. Performs **what-if analysis** for GPA prediction  
 
 ---
 
