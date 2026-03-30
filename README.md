@@ -1,85 +1,66 @@
-# AI-Based GPA Prediction and Decision Support System
+# 🎯 AI-Based GPA Prediction and Decision Support System
 
-## Overview
-
-This project is developed as part of the Fundamentals of AI and ML course. It is a simple AI-based system that helps students predict their GPA and decide which subjects to focus on in order to improve performance efficiently.
-
-Many students study without a clear strategy. This project provides a structured way to analyze subjects and make better academic decisions.
+> A simple AI-driven tool that helps students predict their GPA and make smarter academic decisions.
 
 ---
 
-## Problem Statement
+## 📌 Overview
 
-Students often face confusion before exams:
+This project focuses on solving a common problem faced by students — deciding how to improve academic performance efficiently.
+
+Instead of studying all subjects randomly, this system provides a structured approach to:
+- identify high-impact subjects  
+- estimate effort required  
+- plan strategies to reach a target GPA  
+
+---
+
+## ❗ Problem Statement
+
+Students often face confusion during exams:
 - Which subject should I focus on?
-- How can I reach my target GPA?
-- Am I using my effort effectively?
+- How can I improve my GPA effectively?
+- Am I using my effort in the right way?
 
-This project aims to solve these problems using basic AI concepts.
-
----
-
-## Solution
-
-The system takes input such as:
-- subject credits
-- expected grade
-- difficulty level
-- preparation level
-
-It then:
-- predicts current GPA
-- ranks subjects based on priority
-- suggests which subjects to improve
-- estimates future GPA using what-if analysis
+This project provides a logical and data-driven way to approach these questions.
 
 ---
 
-## Features
+## 💡 Solution Approach
 
-- GPA prediction using weighted average
-- Subject prioritization using impact vs effort scoring
-- Target GPA planning
-- Multi-subject decision optimization
-- What-if GPA prediction analysis
-- Simple study suggestions
+The system works as a simple decision-making agent:
 
----
-
-## AI Concepts Used
-
-- Intelligent Agent (input → decision output)
-- Heuristic Function (impact vs effort scoring)
-- Decision Making
-- Basic Prediction Model
-- Simulation (what-if analysis)
+1. Takes subject details as input  
+2. Calculates predicted GPA  
+3. Ranks subjects based on impact vs effort  
+4. Suggests which subjects to improve  
+5. Simulates GPA changes using what-if analysis  
 
 ---
 
-## Syllabus Connection
+## ⚙️ Key Features
 
-- Module 1: Intelligent Agents
-- Module 2: Problem Solving (heuristics)
-- Module 3: Probability & estimation
-- Module 4: Basic Machine Learning (prediction concept)
-
----
-
-## Technologies Used
-
-- Python
-- Lists, loops, conditionals
-- Functions
-- Basic algorithm design
+- 📊 GPA prediction using weighted average  
+- 📈 Subject prioritization using scoring logic  
+- 🎯 Target GPA planning  
+- 🔍 What-if analysis (GPA simulation)  
+- 🧠 Decision support system  
+- 📘 Study suggestions based on input  
 
 ---
 
-## How to Run
+## 🛠️ Technologies Used
 
-1. Install Python (if not already installed)
-2. Download or clone this repository
-3. Open terminal in the project folder
-4. Run:
+- Python  
+- Lists, loops, and conditionals  
+- Functions  
+- Basic algorithm design  
 
-```bash
-python main.py
+---
+
+## 🚀 How to Run
+
+1. Install Python  
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/ai-gpa-prediction-system
