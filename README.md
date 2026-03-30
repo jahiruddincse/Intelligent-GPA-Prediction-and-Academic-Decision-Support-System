@@ -2,6 +2,9 @@
 
 A structured, AI-inspired system that predicts GPA based on expected grades and helps students make smarter academic decisions.
 
+The system predicts GPA based on the expected grades entered by the user. It analyzes each subject using credits, difficulty, and preparation level. A score is calculated to identify which subjects have the highest impact.
+Based on this, it suggests where to focus for better academic performance.
+
 ---
 
 ## 1. Overview
