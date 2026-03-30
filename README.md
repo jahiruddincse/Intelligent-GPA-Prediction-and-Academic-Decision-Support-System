@@ -101,7 +101,9 @@ The system works in the following steps:
 
 ---
 
-## 8. How to Run
+## 8. Screenshot
+
+## 9. How to Run
 
 1. Install Python  
 2. Clone the repository:
