@@ -1,25 +1,46 @@
 # 🎯 Intelligent GPA Prediction and Academic Decision Support System
 
-> 🤖 A structured system that predicts GPA based on expected grades and helps students make better academic decisions.
+> 🤖 A structured, AI-inspired system that predicts GPA based on expected grades and helps students make smarter academic decisions.
 
 ---
 
 ## 📌 Overview
 
-This project helps students plan their studies more effectively by predicting GPA using expected (user-provided) grades and suggesting which subjects to focus on.
+This project helps students estimate their GPA using expected (predicted) grades and plan their study strategy effectively.
 
-It is designed with reference to the **VIT Bhopal grading system**, making it practical and relevant for students.
+Instead of studying all subjects randomly, the system identifies **which subjects will give maximum improvement with minimum effort**.
+
+It is designed based on the **VIT Bhopal GPA system**, making it practical for real academic use.
+
+---
+
+## 🔍 Problem Statement
+
+Students often struggle with:
+
+- ❓ Which subject should I focus on?  
+- ❓ How can I improve my GPA efficiently?  
+- ❓ What will my GPA be based on my preparation?  
+
+This project provides a structured and logical solution to these problems.
+
+---
+
+## 🎯 Objectives
+
+- Predict GPA based on expected grades  
+- Identify high-impact subjects  
+- Suggest best subject to improve  
+- Help achieve a target GPA  
+- Provide a structured study strategy  
 
 ---
 
 ## 🎓 GPA System (VIT Bhopal)
 
-The GPA is calculated using a weighted average based on:
+The GPA is calculated using a **weighted average method**:
 
-- 📚 Subject Credits  
-- 📝 Grade Points  
-
-### Grade Points Mapping
+### 📊 Grade Points
 
 - S = 10  
 - A = 9  
@@ -31,20 +52,9 @@ The GPA is calculated using a weighted average based on:
 
 ### 📷 GPA Formula
 
-*(Insert your GPA formula screenshot below)*
+*(Add your GPA formula screenshot below)*
 
 ![GPA Formula](images/formula.png)
-
----
-
-## ❗ Problem Statement
-
-Students often face confusion:
-- Which subject should I focus on?  
-- How can I improve my GPA efficiently?  
-- What will my GPA be based on my preparation?  
-
-This project provides a structured and logical solution.
 
 ---
 
@@ -52,11 +62,31 @@ This project provides a structured and logical solution.
 
 The system works in the following steps:
 
-1. ✏️ Takes subject details as input  
-2. 📊 Calculates predicted GPA  
-3. 📈 Ranks subjects using impact vs effort score  
-4. 🎯 Suggests the best subject to improve  
-5. 🔍 Performs GPA prediction analysis  
+1. ✏️ Take subject details as input  
+2. 📊 Calculate predicted GPA  
+3. 📈 Compute subject priority (impact vs effort)  
+4. 🎯 Suggest best subject to improve  
+5. 🔍 Perform GPA prediction analysis  
+
+---
+
+## 🧠 Algorithm
+
+1. Input number of subjects  
+2. Store subject details (credits, grade, difficulty, preparation)  
+3. Calculate GPA using:
+
+   GPA = Σ(grade_points × credits) / Σ(credits)
+
+4. For each subject:
+   - Impact = credits × (10 − grade point)  
+   - Effort = difficulty + (5 − preparation)  
+   - Score = impact / (effort + 1)  
+
+5. Sort subjects based on score (descending)  
+6. Simulate improving each subject to grade “S”  
+7. Select subject giving best GPA improvement  
+8. Display recommendation and analysis  
 
 ---
 
@@ -64,9 +94,10 @@ The system works in the following steps:
 
 - 📊 GPA prediction based on expected grades  
 - 📈 Subject prioritization using scoring  
-- 🎯 Target GPA-based recommendation  
+- 🎯 Target GPA planning  
 - 🔍 What-if GPA analysis  
 - 💡 Study suggestions  
+- 🖥️ Simple terminal interface  
 
 ---
 
