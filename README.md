@@ -54,7 +54,8 @@ The GPA is calculated using a weighted average method:
 
 ### GPA Formula
 
-
+![GPA Formula](images/gpaformula.jpeg)
+![GPA](images/gpa.jpeg)
 
 
 ---
