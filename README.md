@@ -131,8 +131,6 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ## 11. How to Run (Command Line)
 
-## 11. How to Run (Command Line)
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
