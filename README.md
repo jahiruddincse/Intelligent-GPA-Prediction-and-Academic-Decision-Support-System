@@ -146,7 +146,6 @@ cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 3. Run the program:
 ```bash
 python3 gpa_decision_agent.py  # Mac/Linux
-
 python gpa_decision_agent.py   # Windows
 
 ```
