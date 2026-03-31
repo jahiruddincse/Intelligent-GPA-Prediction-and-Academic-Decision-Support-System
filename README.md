@@ -140,7 +140,7 @@ git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academ
 2. Go inside the folder:
 cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 
-3.Run the program:
+3. Run the program:
 python3 gpa_decision_agent.py  # Mac/Linux
 python gpa_decision_agent.py   # Windows
 
