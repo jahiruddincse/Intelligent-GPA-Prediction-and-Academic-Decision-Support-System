@@ -79,22 +79,23 @@ A higher score means the subject can improve GPA more efficiently with less effo
 ---
 
 ## 7. Algorithm
-
-1. Input number of subjects  
-2. Store subject details  
-3. Calculate GPA using:
+1. START
+2. Input number of subjects  
+3. Store subject details  
+4. Calculate GPA using:
 
    GPA = Σ(grade_points × credits) / Σ(credits)
 
-4. For each subject:
+5. For each subject:
    - Impact = credits × (10 − grade point)  
    - Effort = difficulty + (5 − preparation)  
    - Score = impact / (effort + 1)  
 
-5. Sort subjects based on score  
-6. Simulate improvement  
-7. Select best subject  
-8. Display results  
+6. Sort subjects based on score  
+7. Simulate improvement  
+8. Select best subject  
+9. Display results
+10. STOP
 
 ---
 
