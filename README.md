@@ -162,3 +162,6 @@ This project presents a simple and practical approach to academic planning using
 The system is easy to use, requires no external libraries, and runs completely through the command line. It demonstrates how fundamental programming and analytical thinking can be applied to solve real-world student problems effectively.
 
 Overall, the project provides a useful tool for improving academic performance while also reflecting the core concepts learned in the course.
+
+
+
