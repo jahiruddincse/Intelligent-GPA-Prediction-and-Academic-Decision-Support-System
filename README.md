@@ -111,11 +111,15 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ## 9. Screenshots
 
-### Output
-![Output Screenshot](images/output.png)
+### Program
+<img width="1280" height="832" alt="Program" src="https://github.com/user-attachments/assets/d799f31e-0efe-40db-a112-2fecb1e7f12b" />
 
-### Code
-![Code Screenshot](images/code.png)
+
+### Output
+
+<img width="1280" height="832" alt="output 3" src="https://github.com/user-attachments/assets/eeb24509-03ed-43e3-aec3-d6f345ca51c7" />
+<img width="1280" height="832" alt="output 2" src="https://github.com/user-attachments/assets/a575683c-f468-46bc-9957-c49fded46d1b" />
+<img width="1280" height="832" alt="output 1" src="https://github.com/user-attachments/assets/b7defee8-1823-4325-be44-4dce18a45257" />
 
 ---
 
