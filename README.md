@@ -53,10 +53,10 @@ The GPA is calculated using a weighted average method:
 - F = 0  
 
 ### GPA Formula
+![WhatsApp Image 2026-03-31 at 09 56 16](https://github.com/user-attachments/assets/c871e048-76f1-4789-a0c5-4512b7e388b1)
+![WhatsApp Image 2026-03-31 at 09 56 16 (1)](https://github.com/user-attachments/assets/f4d465eb-f33a-4578-9fb8-c0321955f57a)
 
-(Add your GPA formula screenshot below)
 
-![GPA Formula](images/formula.png)
 
 ---
 
