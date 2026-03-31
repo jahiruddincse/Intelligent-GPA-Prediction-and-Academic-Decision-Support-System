@@ -86,6 +86,8 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
    GPA = Σ(grade_points × credits) / Σ(credits)
 
+   ![GPA Formula](images/gpaformula.jpeg)
+
 4. For each subject:
    - Impact = credits × (10 − grade point)  
    - Effort = difficulty + (5 − preparation)  
@@ -112,13 +114,12 @@ A higher score means the subject can improve GPA more efficiently with less effo
 ## 9. Screenshots
 
 ### Program
-<img width="1280" height="832" alt="Program" src="https://github.com/user-attachments/assets/d799f31e-0efe-40db-a112-2fecb1e7f12b" />
-
+![Program](images/Program.png)
 
 ### Output
-<img width="1280" height="832" alt="output 1" src="https://github.com/user-attachments/assets/af61cab0-9a41-48ec-b91c-b704bdd0262e" />
-<img width="1280" height="832" alt="output 2" src="https://github.com/user-attachments/assets/5db07a61-ba7c-4909-a6fd-5fa513acbc86" />
-<img width="1280" height="832" alt="output 3" src="https://github.com/user-attachments/assets/8b3060f4-49ac-4ae9-8d19-50264d26346c" />
+![Output 1](screenshots/output1.png)
+![Output 2](screenshots/output2.png)
+![Output 3](screenshots/output3.png)
 
 
 ---
