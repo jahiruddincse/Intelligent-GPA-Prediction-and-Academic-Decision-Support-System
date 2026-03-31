@@ -116,10 +116,10 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 
 ### Output
+<img width="1280" height="832" alt="output 1" src="https://github.com/user-attachments/assets/af61cab0-9a41-48ec-b91c-b704bdd0262e" />
+<img width="1280" height="832" alt="output 2" src="https://github.com/user-attachments/assets/5db07a61-ba7c-4909-a6fd-5fa513acbc86" />
+<img width="1280" height="832" alt="output 3" src="https://github.com/user-attachments/assets/8b3060f4-49ac-4ae9-8d19-50264d26346c" />
 
-<img width="1280" height="832" alt="output 3" src="https://github.com/user-attachments/assets/eeb24509-03ed-43e3-aec3-d6f345ca51c7" />
-<img width="1280" height="832" alt="output 2" src="https://github.com/user-attachments/assets/a575683c-f468-46bc-9957-c49fded46d1b" />
-<img width="1280" height="832" alt="output 1" src="https://github.com/user-attachments/assets/b7defee8-1823-4325-be44-4dce18a45257" />
 
 ---
 
