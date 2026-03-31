@@ -136,6 +136,7 @@ A higher score means the subject can improve GPA more efficiently with less effo
 git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 ```
 2. Go inside the folder:
+
 cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 
 3. Run the program:
