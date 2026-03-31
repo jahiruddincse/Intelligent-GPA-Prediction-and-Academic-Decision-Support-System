@@ -105,7 +105,7 @@ A higher score means the subject can improve GPA more efficiently with less effo
 - Target GPA planning  
 - What-if GPA analysis  
 - Study suggestions  
-- Terminal-based interface  
+- Command-line based system  
 
 ---
 
@@ -119,10 +119,46 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ---
 
-## 10. How to Run
+## 10. Setup and Installation
 
-1. Install Python (version 3.x)
+- Install Python (version 3.x)
+- No external libraries required (uses only built-in Python)
 
-2. Clone the repository:
-```bash
+---
+
+## 11. How to Run (Command Line)
+
+1. Clone the repository:
 git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
+
+2. Go inside the folder:
+cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
+
+3. Run the program:
+python main.py
+
+
+
+## 12. How to Use
+
+1. Enter number of subjects  
+2. Enter subject details (credits, grade, difficulty, preparation)  
+3. Enter target GPA  
+4. You will see GPA, priority, and recommendation
+
+## 13. Limitations
+
+- The system is rule-based and not a trained machine learning model  
+- Results depend on the accuracy of user input  
+- It assumes improvement to grade “S” for prediction  
+- Does not consider real exam uncertainty or external factors 
+
+
+
+## 14. Conclusion
+
+This project presents a simple and practical approach to academic planning using basic AI-inspired logic. By predicting GPA based on expected grades and analyzing subject priority through an impact vs effort model, it helps students make better study decisions.
+
+The system is easy to use, requires no external libraries, and runs completely through the command line. It demonstrates how fundamental programming and analytical thinking can be applied to solve real-world student problems effectively.
+
+Overall, the project provides a useful tool for improving academic performance while also reflecting the core concepts learned in the course.
