@@ -131,14 +131,18 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ## 11. How to Run (Command Line)
 
-1. Clone the repository:
-git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
+## 11. How to Run (Command Line)
 
+1. Clone the repository:
+```bash
+git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
+```
 2. Go inside the folder:
 cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 
-3. Run the program:
-gpa_decision_agent.py
+3.Run the program:
+python3 gpa_decision_agent.py  # Mac/Linux
+python gpa_decision_agent.py   # Windows
 
 
 ## 12. How to Use
@@ -164,6 +168,5 @@ This project presents a simple and practical approach to academic planning using
 The system is easy to use, requires no external libraries, and runs completely through the command line. It demonstrates how fundamental programming and analytical thinking can be applied to solve real-world student problems effectively.
 
 Overall, the project provides a useful tool for improving academic performance while also reflecting the core concepts learned in the course.
-
 
 
