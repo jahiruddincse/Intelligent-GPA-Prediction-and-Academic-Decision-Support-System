@@ -129,6 +129,8 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ---
 
+
+
 ## 11. How to Run (Command Line)
 
 1. Clone the repository:
@@ -140,8 +142,13 @@ git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academ
 cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 
 3. Run the program:
+
 python3 gpa_decision_agent.py  # Mac/Linux
+
 python gpa_decision_agent.py   # Windows
+
+
+
 
 
 ## 12. How to Use
