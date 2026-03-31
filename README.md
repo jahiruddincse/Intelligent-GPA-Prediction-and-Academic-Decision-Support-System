@@ -135,8 +135,7 @@ git clone https://github.com/jahiruddincse/Intelligent-GPA-Prediction-and-Academ
 cd Intelligent-GPA-Prediction-and-Academic-Decision-Support-System
 
 3. Run the program:
-python main.py
-
+gpa_decision_agent.py
 
 
 ## 12. How to Use
