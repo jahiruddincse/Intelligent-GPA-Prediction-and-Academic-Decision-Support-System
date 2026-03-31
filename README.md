@@ -116,6 +116,11 @@ A higher score means the subject can improve GPA more efficiently with less effo
 
 ### Output
 
+![Output 1](screenshots/output1.png)
+
+![Output 2](screenshots/output2.png)
+
+![Output 3](screenshots/output3.png)
 
 ---
 
